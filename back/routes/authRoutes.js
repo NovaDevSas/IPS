@@ -6,6 +6,6 @@ const authMiddleware = require('../middleware/authMiddleware');
 router.post('/register', authController.register);
 router.post('/login', authController.login);
 router.post('/reset-password', authController.resetPassword);
-router.get('/roles', authMiddleware, authController.getUserRoles); // Nueva ruta para obtener roles
+router.get('/roles', authMiddleware, authController.getUserRoles); // Nueva ruta para obtener roles auth
 
 module.exports = router;

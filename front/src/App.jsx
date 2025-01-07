@@ -21,7 +21,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/unauthorized" element={<Unauthorized />} />
+            <Route path="/unauthorized" element={<Unauthorized />} />// Nueva ruta para mostrar mensaje de no autorizado
             <Route path="/app" element={<Layout />}>
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="clients" element={<Clients />} />
